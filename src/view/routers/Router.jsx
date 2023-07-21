@@ -4,6 +4,7 @@ import Login from "../pages/Login";
 // import Main from "../pages/Main";
 import { SkeletonTheme } from "react-loading-skeleton";
 import { Navigate, Outlet, useLocation } from "react-router-dom";
+import Main from "../pages/Main";
 
 const AuthWrapper = () => {
   const location = useLocation(); // current location
@@ -39,7 +40,7 @@ const Router = () => {
           <Routes>
             <Route path="/" element={<Login logIn={logIn} />} />
             <Route element={<AuthWrapper />} style={{ color: "white" }}>
-              {/* <Route path="/main" element={<Main />} /> */}
+              <Route path="/main" element={<Main />} />
             </Route>
           </Routes>
         </BrowserRouter>
