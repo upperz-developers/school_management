@@ -1,0 +1,457 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    .card-login-1 {
+        height: 100vh;
+        display: flex;
+        align-content: center;
+        flex: 10;
+        .img {
+            object-fit: cover;
+            width: 100%;
+            // border-radius: 0 10px 10px 0;
+            height: 100%;
+        }
+    }
+    .stack-login {
+        height: 100vh;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.623);
+        position: absolute;
+    }
+    .card-login-2 {
+        background-color: rgba(32, 29, 29, 0.486);
+        border-radius: 12px;
+        position: absolute; // border-radius: 10px 0 0 10px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex: 3.5;
+        width: 30%;
+        height: 55vh;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        .title {
+            text-align: center;
+            margin-bottom: 50px;
+            h1 {
+                font-size: 21px;
+                font-weight: bold;
+            }
+        }
+        .input {
+            width: 80%;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            font-family: Montserrat;
+            margin-bottom: 30px;
+            margin-left: auto;
+            margin-right: auto;
+            .input1 {
+                // color: black;
+                width: 100%;
+                display: flex;
+                align-items: flex-start;
+                flex-direction: column;
+                margin: 10px auto;
+                #email {
+                    width: 100%;
+                    margin-top: 7px;
+                    height: 35px;
+                    border-radius: 4px;
+                    background-color: whitesmoke;
+                    border: 0.5px solid rgba(152, 152, 152, 0.482);
+                    padding: 3px 5px;
+                    font-size: 14px;
+                }
+                #name {
+                    width: 100%;
+                    margin-top: 7px;
+                    height: 35px;
+                    background-color: whitesmoke;
+                    border-radius: 4px;
+                    border: 0.5px solid rgba(152, 152, 152, 0.482);
+                    padding: 3px 5px;
+                    font-size: 14px;
+                }
+            }
+            #button2 {
+                width: 100%;
+                margin-top: 20px;
+                border-radius: 100px;
+                background-color: #01a9f9;
+                font-family: Montserrat, sans-serif;
+                box-shadow: none;
+                text-transform: none;
+                &:hover {
+                    color: rgb(0, 95, 189);
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 0px) {
+    .login-container {
+        .card-login-2 {
+            background-color: rgba(32, 29, 29, 0.486);
+            border-radius: 12px;
+            position: absolute; // border-radius: 10px 0 0 10px;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            align-items: center;
+            flex-direction: column;
+            // flex: 3.5;
+            width: 90%;
+            height: 70vh;
+            .input {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                font-family: Montserrat;
+                margin-bottom: 30px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .text-signup {
+                font-size: 10px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 425px) {
+    .login-container {
+        .card-login-2 {
+            background-color: rgba(32, 29, 29, 0.486);
+            border-radius: 12px;
+            position: absolute; // border-radius: 10px 0 0 10px;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            align-items: center;
+            flex-direction: column;
+            flex: 3.5;
+            width: 80%;
+            height: 60vh;
+            .input {
+                width: 96%;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                font-family: Montserrat;
+                margin-bottom: 30px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    .login-container {
+        .card-login-2 {
+            background-color: rgba(32, 29, 29, 0.486);
+            border-radius: 12px;
+            position: absolute; // border-radius: 10px 0 0 10px;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            align-items: center;
+            flex-direction: column;
+            flex: 3.5;
+            width: 50%;
+            height: 60vh;
+            .input {
+                width: 96%;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                font-family: Montserrat;
+                margin-bottom: 30px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1300px) {
+    .login-container {
+        .card-login-2 {
+            background-color: rgba(32, 29, 29, 0.486);
+            border-radius: 12px;
+            position: absolute; // border-radius: 10px 0 0 10px;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            align-items: center;
+            flex-direction: column;
+            flex: 3.5;
+            width: 30%;
+            height: 55vh;
+        }
+    }
+}
+
+// @media only screen and (max-width: 527px) {
+//   .login-container {
+//     .card-login-2 {
+//       background-color: rgba(32, 29, 29, 0.486);
+//       border-radius: 12px;
+//       position: absolute; // border-radius: 10px 0 0 10px;
+//       display: flex;
+//       justify-content: center;
+//       align-content: center;
+//       align-items: center;
+//       flex-direction: column;
+//       flex: 3.5;
+//       width: 90%;
+//       height: 60vh;
+//       .input {
+//         width: 96%;
+//         display: flex;
+//         align-items: center;
+//         flex-direction: column;
+//         font-family: Montserrat;
+//         margin-bottom: 30px;
+//         margin-left: auto;
+//         margin-right: auto;
+//       }
+//     }
+//   }
+// }
+//     .login-container {
+//         display: flex;
+//         flex-direction: column;
+//         justify-content: space-between;
+//         align-content: center;
+//         align-items: center;
+//         gap: 30px;
+//         height: auto;
+//         background-color: whitesmoke;
+//         .card-login-1 {
+//             display: flex;
+//             flex: 6.5;
+//             height: 50%;
+//             align-content: center;
+//             .img {
+//                 object-fit: cover;
+//                 width: 100%;
+//                 // border-radius: 0 10px 10px 0;
+//                 height: 100%;
+//             }
+//         }
+//         .card-login-2 {
+//             height: auto;
+//             flex: 3.5;
+//             .title {
+//                 text-align: center;
+//                 margin-bottom: 30px;
+//                 h1 {
+//                     font-size: 21px;
+//                     font-weight: bold;
+//                 }
+//             }
+//             .input {
+//                 width: 100%;
+//                 display: flex;
+//                 align-items: center;
+//                 flex-direction: column;
+//                 font-family: Montserrat;
+//                 // margin-bottom: 0px;
+//                 margin-left: auto;
+//                 margin-right: auto;
+//             }
+//         }
+//     }
+// }
+// @media only screen and (min-width: 768px) {
+//     .login-container {
+//         display: flex;
+//         flex-direction: none;
+//         justify-content: space-between;
+//         align-content: center;
+//         align-items: center;
+//         gap: 30px;
+//         height: auto;
+//         background-color: white;
+//         .card-login-1 {
+//             height: 100vh;
+//             display: flex;
+//             align-content: center;
+//             flex: 5;
+//             .img {
+//                 object-fit: cover;
+//                 width: 100%;
+//                 // border-radius: 0 10px 10px 0;
+//                 height: 100%;
+//             }
+//         }
+//         .card-login-2 {
+//             // border-radius: 10px 0 0 10px;
+//             display: flex;
+//             justify-content: center;
+//             align-content: center;
+//             align-items: center;
+//             flex-direction: column;
+//             flex: 4;
+//             height: 65vh;
+//             .title {
+//                 text-align: center;
+//                 margin-bottom: 30px;
+//                 h1 {
+//                     font-size: 21px;
+//                     font-weight: bold;
+//                 }
+//             }
+//             .input {
+//                 width: 100%;
+//                 display: flex;
+//                 align-items: center;
+//                 flex-direction: column;
+//                 font-family: Montserrat;
+//                 margin-bottom: 30px;
+//                 margin-left: auto;
+//                 margin-right: auto;
+//                 .input1 {
+//                     width: 100%;
+//                     display: flex;
+//                     align-items: flex-start;
+//                     flex-direction: column;
+//                     margin: 10px auto;
+//                     #email {
+//                         width: 100%;
+//                         margin-top: 7px;
+//                         height: 35px;
+//                         border-radius: 4px;
+//                         background-color: whitesmoke;
+//                         border: 0.5px solid rgba(152, 152, 152, 0.482);
+//                         padding: 3px 5px;
+//                         font-size: 14px;
+//                     }
+//                     #name {
+//                         width: 100%;
+//                         margin-top: 7px;
+//                         height: 35px;
+//                         background-color: whitesmoke;
+//                         border-radius: 4px;
+//                         border: 0.5px solid rgba(152, 152, 152, 0.482);
+//                         padding: 3px 5px;
+//                         font-size: 14px;
+//                     }
+//                 }
+//                 #button2 {
+//                     width: 100%;
+//                     margin-top: 20px;
+//                     border-radius: 100px;
+//                     background-color: #01a9f9;
+//                     font-family: Montserrat, sans-serif;
+//                     box-shadow: none;
+//                     text-transform: none;
+//                     &:hover {
+//                         color: rgb(0, 95, 189);
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }
+// @media only screen and (min-width: 1150px) {
+//     .login-container {
+//         display: flex;
+//         flex-direction: none;
+//         justify-content: space-between;
+//         align-content: center;
+//         align-items: center;
+//         gap: 30px;
+//         height: auto;
+//         background-color: white;
+//         .card-login-1 {
+//             height: 100vh;
+//             display: flex;
+//             align-content: center;
+//             flex: 6;
+//             .img {
+//                 object-fit: cover;
+//                 width: 100%;
+//                 // border-radius: 0 10px 10px 0;
+//                 height: 100%;
+//             }
+//         }
+//         .card-login-2 {
+//             // border-radius: 10px 0 0 10px;
+//             display: flex;
+//             justify-content: center;
+//             align-content: center;
+//             align-items: center;
+//             flex-direction: column;
+//             flex: 4;
+//             height: 65vh;
+//             .title {
+//                 text-align: center;
+//                 margin-bottom: 30px;
+//                 h1 {
+//                     font-size: 21px;
+//                     font-weight: bold;
+//                 }
+//             }
+//             .input {
+//                 width: 55%;
+//                 display: flex;
+//                 align-items: center;
+//                 flex-direction: column;
+//                 font-family: Montserrat;
+//                 margin-bottom: 30px;
+//                 margin-left: auto;
+//                 margin-right: auto;
+//                 .input1 {
+//                     width: 100%;
+//                     display: flex;
+//                     align-items: flex-start;
+//                     flex-direction: column;
+//                     margin: 10px auto;
+//                     #email {
+//                         width: 100%;
+//                         margin-top: 7px;
+//                         height: 35px;
+//                         border-radius: 4px;
+//                         background-color: whitesmoke;
+//                         border: 0.5px solid rgba(152, 152, 152, 0.482);
+//                         padding: 3px 5px;
+//                         font-size: 14px;
+//                     }
+//                     #name {
+//                         width: 100%;
+//                         margin-top: 7px;
+//                         height: 35px;
+//                         background-color: whitesmoke;
+//                         border-radius: 4px;
+//                         border: 0.5px solid rgba(152, 152, 152, 0.482);
+//                         padding: 3px 5px;
+//                         font-size: 14px;
+//                     }
+//                 }
+//                 #button2 {
+//                     width: 100%;
+//                     margin-top: 20px;
+//                     border-radius: 100px;
+//                     background-color: #01a9f9;
+//                     font-family: Montserrat, sans-serif;
+//                     box-shadow: none;
+//                     text-transform: none;
+//                     &:hover {
+//                         color: rgb(0, 95, 189);
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }

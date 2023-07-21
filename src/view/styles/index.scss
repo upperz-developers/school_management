@@ -1,0 +1,205 @@
+:root {
+    --color-primary: black;
+    --color-secondary: white;
+    --backgound-initial: white;
+    --background-dark: #222d67;
+    --background-color-1: #01a9f9;
+    --background-color-2: #222d67;
+    --color-blue: #095bac;
+    --color-gray: grey;
+    --color-error: #f9004d;
+    --shadow-1: 10px 10px 19px #dfdfdf, -10px -10px 19px #c2b1b1;
+    --shadow-2: inset 21px 21px 19px #181a1d, inset -21px -21px 19px #202225;
+    --inner-shadow: 1px 4px 2px -3px rgba(0, 0, 0, 0.7) inset, -1px -3px 3px -2px rgba(255, 255, 255, 0.2) inset;
+    --shadow-white-3: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    --gradient-box-w: linear-gradient(145deg, #e2e8ec, #ffffff);
+    --gradient-red-hover: linear-gradient(145deg, #009048fa, #f4f4f5fa);
+    --gradient-blue-hover: linear-gradient(145deg, #1d72c7, #0994ac);
+    --color-heading: #ffffff;
+    --color-heading-wv: #1e2125;
+    --color-body: #878e99;
+    --color-body-white: #3c3e41;
+    --color-lightn: #c4cfde;
+    --color-midgray: #878787;
+    --color-light: #e4e6ea;
+    --color-lighter: #ced0d4;
+    --color-lightest: #f0f2f5;
+    --color-border: #e6e6e6;
+    --color-white: #ffffff;
+    --color-white-75: rgba(255, 255, 255, 0.75);
+    --color-success: #6de78e82;
+    --color-danger: #ff7173ad;
+    --color-warning: #f7964bb2;
+    --color-info: #1ba2db;
+    --color-facebook: #3b5997;
+    --color-twitter: #1ba1f2;
+    --color-youtube: #ed4141;
+    --color-linkedin: #0077b5;
+    --color-pinterest: #e60022;
+    --color-instagram: #c231a1;
+    --color-vimeo: #00adef;
+    --color-twitch: #6441a3;
+    --color-discord: #7289da;
+    --p-light: 300;
+    --p-regular: 400;
+    --p-medium: 500;
+    --p-semi-bold: 600;
+    --p-bold: 700;
+    --p-extra-bold: 800;
+    --p-black: 900;
+    --s-light: 300;
+    --s-regular: 400;
+    --s-medium: 500;
+    --s-semi-bold: 600;
+    --s-bold: 700;
+    --s-extra-bold: 800;
+    --s-black: 900;
+    --transition: 0.4s;
+    --font-primary: "Poppins", sans-serif;
+    --font-secondary: "Montserrat", sans-serif;
+    --font-size-b1: 18px;
+    --font-size-b2: 22px;
+    --font-size-b3: 14px;
+    --line-height-b1: 1.5;
+    --line-height-b2: 1.6;
+    --line-height-b3: 1.7;
+    --h1: 70px;
+    --h2: 60px;
+    --h3: 50px;
+    --h4: 40px;
+    --h5: 30px;
+    --h6: 20px;
+    --blue-10: #041e3c;
+    --blue-9: #042b59;
+    --blue-8: #043875;
+    --blue-7: #0553b1;
+    --blue-6: #0468d7;
+    --primary: #0468d7;
+    --blue-5: #027dfd;
+    --blue-4: #13b9fd;
+    --blue-3: #81ddf9;
+    --blue-2: #b8eafe;
+    --blue-1: #e7f8ff;
+    --pink: #f8bbd0;
+    --red: #d43324;
+    --coral: #f25d50;
+    --violet-4: #833ef2;
+    --violet-3: #796ceb;
+    --violet-2: #6200ee;
+    --violet-1: #c6bafa;
+    --green-3: #14c2ad;
+    --green-2: #a7ffeb;
+    --green-1: #1cdac5;
+    --grey-6: #4a4a4a;
+    --grey-5: #a4a4a4;
+    --grey-4: #dadce0;
+    --grey-3: #e8eaed;
+    --grey-2: #f1f3f4;
+    --grey-1: #f8f9fa;
+    --ui-anim-func: cubic-bezier(0.27, 0.89, 0.39, 0.95);
+    --ui-border-radius: 24px;
+    --ui-border-radius-sm: 8px;
+    --ui-border-color: var(--grey-3);
+    --ui-btn-height: 40px;
+    --ui-card-width: 484px;
+    --ui-drop-shadow: 0px 8px 24px rgba(0, 0, 0, 0.25);
+    --ui-drop-shadow-sm: 0px 0px 16px rgba(0, 0, 0, 0.1);
+    --ui-header-height: 86px;
+    --ui-logo-width: 126px;
+    --font-size-heading-1: 46px;
+    --font-size-heading-2: 34px;
+    --font-size-heading-3: 24px;
+    --font-size-heading-4: 18px;
+    --font-size-heading-5: 16px;
+    --font-size-default: 24px;
+    --font-size-scaling-2: 6.11111vw;
+    --font-size-scaling-3: 5vw;
+    --font-weight-default: 400;
+    --font-weight-bold: 700;
+    --font-gsans: "Google Sans", sans-serif;
+    --font-roboto: "Roboto", sans-serif;
+    --screen-xs-min: 480px;
+    --screen-sm-min: 640px;
+    --screen-md-min: 768px;
+    --screen-lg-min: 1024px;
+    --screen-xl-min: 1280px;
+    --screen-2xl-min: 1536px;
+    --screen-13-min: 1440px;
+    --screen-desktop-min: 992px;
+    --spacer-sm: 8px;
+    --spacer-md: 32px;
+    --spacer: 40px;
+    --gutter-sm: 24px;
+    --gutter: 50px;
+    --gutter-md: 70px;
+    --gutter-lg: 112px;
+    --gutter-xl: 140px;
+    --max-width: calc(var(--screen-xl-min) - var(--gutter) * 2);
+    --gutter-auto: calc((100vw - var(--max-width)) / 2);
+    // --grad-blue-green-145: linear-gradient(145deg, #9de2fa 40%, #d3fff5 90%);
+    // --grad-yellow-blue-145: linear-gradient(145deg, #faf9c5 40%, #e8f9ff 90%);
+    // --grad-blue-yellow-35: linear-gradient(35deg, #e8f9ff 40%, #faf9c5 90%);
+    // --grad-yellow-blue-35: linear-gradient(35deg, #faf9c5 40%, #e8f9ff 90%);
+    // --grad-liteyellow-blue: linear-gradient(35deg, #fcfce2 40%, #f5fbfe 90%);
+    // --grad-red-blue-35: linear-gradient(35deg, #fcdde8, #f3fcff 60%);
+    // --grad-violet-blue-35: linear-gradient(35deg, #e3ddfd 30%, #f3fcff 90%);
+    // --grad-blue-light-35: linear-gradient(35deg, #141a49 50%, #656f8f 90%);
+    --font-size-heading-1: 60px;
+    --font-size-heading-2: 36px;
+    --font-size-heading-3: 28px;
+    --font-size-heading-4: 20px;
+    --font-size-heading-5: 16px;
+    --font-size-default: 24px;
+}
+
+html {
+    background-color: rgb(27, 42, 58);
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+    body {
+        font-family: "Montserrat";
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat, sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+    background-color: rgb(27, 42, 58);
+}
+
+::-webkit-scrollbar-thumb {
+    background: #01a9f9;
+    border-radius: 20px;
+}
+
+// @media (min-width: 1024px) {}
+// // /* Mobile first queries */
+// // /* Larger than mobile */
+// // @media (min-width: 400px) {}
+// // /* Larger than phablet */
+// // @media (min-width: 550px) {}
+// // /* Larger than tablet */
+// // @media (min-width: 750px) {}
+// // /* Larger than desktop */
+// // @media (min-width: 1000px) {}
+// // /* Larger than Desktop HD */
+// // @media (min-width: 1200px) {}
+
+/* Utility Classes */
+
+@import "./pages/login";
+// @import "./models/basicCard";
+// @import "./models/seachModal";
+// @import "./models/loader";
+// @import "./models/dialogs";
+// @import "./components/dashboard";
+// @import "./components/debts";
